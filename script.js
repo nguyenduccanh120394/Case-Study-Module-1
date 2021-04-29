@@ -18,7 +18,7 @@ start_btn.addEventListener('click', () => {
     stop_btn.style.display = 'inline-block'
     function Start() {
     }
-    let so = 10;
+    let so = 20;
     function countDown() {
         so--
         if (so >= 0) {
