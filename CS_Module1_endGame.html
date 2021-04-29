@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <title>Case_Study_Module_1</title>
     <link rel="stylesheet" href="Style.css">
-    <script src="Script.js"></script>
-    <h1>Hit the Zombie</h1>
-    <script src="https://cdn.jsdelivr.net/mojs/latest/mo.min.js"></script>
+    <script src="script.js"></script>
+    <h1 style="font-size: 50px">Hit the Zombie</h1>
 </head>
 <body>
-<div class = score>
-    <h2>SCORE: <span>0</span></h2>
+<div class="back">
+<input type="button" onclick="back()" value="BACK" style="height: 500px;width: 1000px;margin-bottom: 100% ;margin-left: 180px;
+ text-align: center;margin-top: 50px; background-image: url('img/endgame.gif'); background-size: 100%; background-color: inherit;
+border-bottom-left-radius: 90px;border-bottom-right-radius: 90px;border-top-left-radius:90px;border-top-right-radius: 90px;
+color: darkred ; font-size: 200px">
 </div>
-<script src="Hieu_ung_chuot.js"></script>
-<img src="endgame.gif" style="width: 50%;margin-right: 0;height: 50%">
-</div>
+<script>
+    function back(){
+        window.location.href = 'CS_Module1_Start_.html'
+    }
+</script>
 </body>
 
 </html>
